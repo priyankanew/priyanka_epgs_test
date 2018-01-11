@@ -1,6 +1,5 @@
 <?php
 require_once __DIR__ .'/init.php';
-
 define('IMAP_USER','editorial@epgs.com');
 define('IMAP_PASS','epgsystems');
 
