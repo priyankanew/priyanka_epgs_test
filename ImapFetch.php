@@ -3,7 +3,6 @@
 require_once __DIR__ .'/init.php';
 define('IMAP_USER','editorial@epgs.com');
 define('IMAP_PASS','epgsystems');
-
 // We'll load all IMAP channels into an array we can loop on for each new email
 $channels = Channel::getImapChannels();
 
